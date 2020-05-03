@@ -6,25 +6,18 @@ This project implements a recurrent neural network (LSTM) for training a languag
 
 The dataset was composed of scripts from the Seinfeld TV show.
 
-The project involves:
-
-* Text processing: normalize and cleaning text
-* Train the model: LSTM neural network
-* Generate new script
-
 ### Hyperparameters
 
-A import task in the project is to set the hyperparameters. The two most important parameters that control the model are hidden_dim and n_layers. The `n_layers` usually takes a number between 2 or 3, in this project I set it as 2.
+A import task in the project is to set the hyperparameters. The two most important parameters that control the model are `hidden_dim` and  `n_layers`. The `n_layers` usually takes a values from 2 or 3. In this project it was set as 2. 
 
-If you want to improve the model, you can tweak these parameters:
+| Hyperparameters  | Value | 
+| -------------- | --------- |
+| sequence_length  | 30      | 
+| batch_size       | 128     | 
+| embedding_dim    | 200     | 
+| hidden_dim       | 512     | 
+| n_layers         | 2       | 
 
-- epoch = 5
-- learning_rate = 0.001
-- sequence_length = 200
-- batch_size = 50
-- embedding_dim = 400
-- hidden_dim = 256
-- n_layers = 2
 
 ### Technologies used:
 
@@ -34,6 +27,12 @@ If you want to improve the model, you can tweak these parameters:
 * jupyter notebook, anaconda
 
 ## Installation
+
+The project involves:
+
+* Text processing: normalize and cleaning text
+* Train the model: LSTM neural network
+* Generate new script
 
 Using [Anaconda](https://www.anaconda.com/products/individual), in an enviroment with python 3, install the following packages:
 ```
