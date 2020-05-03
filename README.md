@@ -1,20 +1,20 @@
-# Sentiment analysis with RNN
+# TV Script with RNN
 
 ## Project overview
 
-The aim of the project is to implement a neural network, long short term memory (LSTM), that is able to classify a movie review, into negative or positive. The data used was the IMDB dataset which contains 25,000 reviews. 
+This project implements a recurrent neural network (LSTM) for training a language model. This model is used to generate a new text, based on the patterns it learned from the training data.
+
+The dataset was composed of scripts from the Seinfeld TV show.
 
 The project involves:
 
 * Text processing: normalize and cleaning text
-* Feature extraction: word2vec algorithm
-* Model: LSTM neural network
-
-The arquitecture of the network is composed of: one **embedding** layer, two layers of **lstm**, a **fully-connected** layer and finally a **sigmoid** output layer to  predict sentiment values between 0-1.
-
-The model reached 83% accuracy in the test data.
+* Train the model: LSTM neural network
+* Generate new script
 
 ### Hyperparameters
+
+A import task in the project is to set the hyperparameters. The two most important parameters that control the model are hidden_dim and n_layers. The `n_layers` usually takes a number between 2 or 3, in this project I set it as 2.
 
 If you want to improve the model, you can tweak these parameters:
 
