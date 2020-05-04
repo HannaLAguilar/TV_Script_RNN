@@ -8,7 +8,7 @@ The dataset was composed of scripts from the Seinfeld TV show.
 
 ### Hyperparameters
 
-A import task in the project is to set the hyperparameters. The two most important parameters that control the model are `hidden_dim` and  `n_layers`. The `n_layers` usually takes a values from 2 or 3. In this project it was set as 2. For `hidden_dim` values as 128, 256 or 512 are usual.
+A import task in the project is to set the hyperparameters. The two most important parameters that control the model are `hidden_dim` and  `n_layers`. The `n_layers` usually takes a values from 2 or 3. In this project it was set as 2. For `hidden_dim`, values as 128, 256 or 512 are usual.
 
 The final hyperparameters were:
 
@@ -19,6 +19,9 @@ The final hyperparameters were:
 | embedding_dim    | 200     | 
 | hidden_dim       | 512     | 
 | n_layers         | 2       | 
+
+
+<img src="./ims/training.PNG" width=50% align="center">
 
 In order to improve the model the parameters can be changed.
 
