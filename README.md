@@ -21,7 +21,7 @@ The final hyperparameters were:
 | n_layers         | 2       | 
 
 
-<img src="./ims/training.PNG" width=50% align="center">
+<img src="./ims/training.PNG" width=40% align="center">
 
 In order to improve the model the parameters can be changed.
 
