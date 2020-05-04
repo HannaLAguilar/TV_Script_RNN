@@ -6,6 +6,14 @@ This project implements a recurrent neural network (LSTM) for training a languag
 
 The dataset was composed of scripts from the Seinfeld TV show.
 
+The project involves:
+
+* Text processing, normalize and cleaning text: 
+   * You can use the functions in `helpers.py` to preprocessing data and save it.
+   * `problem_unittests.py` is a collection of functions which serves to test our model.
+* Train model: LSTM algorithm
+* Generate new script
+
 ### Hyperparameters
 
 Setting the hyperparameters is an important part in a deep learning project. The two most important parameters that control the model are `hidden_dim` and  `n_layers`. The `n_layers` paramater usually takes either 2 or 3. In this project it was set as 2. For `hidden_dim`, the most common values are 128, 256 or 512.
@@ -35,7 +43,8 @@ In order to improve the model the parameters can be changed.
 ## Installation
 
 Using [Anaconda](https://www.anaconda.com/products/individual), in an enviroment with python 3, install the following packages:
+
 ```
-conda install jupyter, numpy, 
+conda install jupyter, numpy, matplotlib 
 conda install -c pytorch pytorch
 ```
