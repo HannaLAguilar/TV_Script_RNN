@@ -9,8 +9,9 @@ The dataset was composed of scripts from the Seinfeld TV show.
 The project involves:
 
 * Text processing, normalize and cleaning text: 
-   * You can use the functions in `helpers.py` to preprocessing data and save it.
-   * `problem_unittests.py` is a collection of functions which serves to test our model.
+   * `helpers.py`: to preprocessing data and save it.
+   * `problem_unittests.py`: a collection of functions to test the model.
+   * `workspace_utils.py`: a collection of functions to run projects inside Udacity working environment.
 * Train model: LSTM algorithm
 * Generate new script
 
