@@ -15,6 +15,12 @@ The project involves:
 * Train model: LSTM algorithm
 * Generate new script
 
+#### Technologies used:
+
+* Python, numpy
+* Neural networks 
+* RNN, LSTM
+
 ### Hyperparameters
 
 Setting the hyperparameters is an important part in a deep learning project. The two most important parameters that control the model are `hidden_dim` and  `n_layers`. The `n_layers` paramater usually takes either 2 or 3. In this project it was set as 2. For `hidden_dim`, the most common values are 128, 256 or 512.
@@ -33,13 +39,6 @@ The final hyperparameters, the ones gave the lowest loss, were:
 <img src="./ims/training.PNG" width=40% align="center">
 
 In order to improve the model the parameters can be changed.
-
-### Technologies used:
-
-* Python, numpy
-* Neural networks 
-* RNN, LSTM
-* jupyter notebook, anaconda
 
 ## Installation
 
