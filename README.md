@@ -21,7 +21,7 @@ The project involves:
 * Neural networks 
 * RNN, LSTM
 
-### Hyperparameters
+## Hyperparameters
 
 Setting the hyperparameters is an important part in a deep learning project. The two most important parameters that control the model are `hidden_dim` and  `n_layers`. The `n_layers` paramater usually takes either 2 or 3. In this project it was set as 2. For `hidden_dim`, the most common values are 128, 256 or 512.
 
@@ -35,6 +35,9 @@ The final hyperparameters, the ones gave the lowest loss, were:
 | hidden_dim       | 256     | 
 | n_layers         | 2       | 
 
+## Training 
+
+The model was run on GPU. CPU is not recommended. It took about 3 hrs.
 
 <img src="./ims/training.PNG" width=40% align="center">
 
