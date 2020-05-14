@@ -37,7 +37,7 @@ The final hyperparameters, the ones gave the lowest loss, were:
 
 ## Training 
 
-The model was run on GPU. CPU is not recommended. It took about 6 hrs.
+The model was run on GPU. CPU is not recommended. It took about 4 hrs.
 
 <img src="./ims/training.PNG" width=40% align="center">
 
